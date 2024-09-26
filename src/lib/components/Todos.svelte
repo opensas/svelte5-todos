@@ -14,7 +14,7 @@
 	let total = $derived(todos.length);
 	let completed = $derived(todos.filter((t) => t.completed).length);
 
-	let name = $state('nuevo todo');
+	let name = $state("nuevo todo")
 
 	let filter = $state<Filter>('all');
 
